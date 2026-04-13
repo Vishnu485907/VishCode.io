@@ -1,0 +1,47 @@
+.loader-container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  z-index: 9999;
+}
+
+.loader-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.loader-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.loader-logo svg {
+  width: 100%;
+  height: 100%;
+}
+
+.loader-text {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #08060d;
+}
+
+.loader-brand {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.loader-dots {
+  color: #6366f1;
+  font-weight: 700;
+}
